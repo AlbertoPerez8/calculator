@@ -180,6 +180,12 @@ class Calculator:
                     result = self.squate_root(val)
                     print(result, '\n')
                     self.terminal()
+
+                elif 'e' in x:
+                    val = self.single(x)
+                    result = self.exponential(val)
+                    print(result, '\n')
+                    self.terminal()
                 
                 else:
                     print(x)
